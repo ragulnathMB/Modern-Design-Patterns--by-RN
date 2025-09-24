@@ -1,157 +1,163 @@
-# 🧠 Mastering Design Patterns – Visual Guide by RN
+# Modern Design Patterns – Comprehensive Implementation Guide
 
-Welcome to **Mastering Design Patterns** – a clean, code-driven, visual repository for understanding the **22 classic Gang of Four (GoF) Design Patterns** with implementations in multiple languages.
+A comprehensive, code-driven repository implementing all **22 Gang of Four (GoF) Design Patterns** with examples and templates across **9 programming languages**.
 
----
+## What Are Design Patterns?
 
-## 📘 What Are Design Patterns?
+**Design Patterns** are proven, reusable solutions to common problems in object-oriented software design. Rather than solving a problem from scratch, a design pattern offers a template that can be customized and adapted to your specific needs.
 
-**Design Patterns** are proven, reusable solutions to common problems in object-oriented software design.  
-Rather than solving a problem from scratch, a design pattern offers a template that can be customized and adapted to your specific needs.
+## Why Use Design Patterns?
 
----
+- Promote **clean architecture** and **reusability**
+- Improve **code readability** and **communication** among developers
+- Help in **scaling applications** while reducing technical debt
+- Essential for **technical interviews** and **system design**
 
-## 🤔 Why Use Design Patterns?
+## When NOT to Use Design Patterns
 
-✅ Promote **clean architecture** and **reusability**  
-✅ Improve **code readability** and **communication** among developers  
-✅ Help in **scaling applications** while reducing technical debt  
-✅ Useful in **interviews** and **real-world architecture design**
+- For simple problems that don't need abstraction
+- When they overcomplicate the design
+- Blindly applying patterns can result in **overengineering**
+- Patterns should solve real problems, not demonstrate knowledge
 
----
+## When to Use Design Patterns
 
-## 🚫 When *Not* to Use Design Patterns
+- When your project starts growing and needs to scale
+- When you see **repeated code or structure**
+- When different modules need to **communicate with loose coupling**
+- During **interview preparation** or **learning system architecture**
 
-❌ For *simple problems* that don’t need abstraction  
-❌ When they *overcomplicate* the design  
-❌ Blindly applying patterns can result in **overengineering**  
-❌ Patterns should solve real problems, not just show off knowledge
+## Repository Contents
 
----
+This repository contains comprehensive implementations of all 22 GoF patterns organized into three categories:
 
-## 🕒 When to Use Design Patterns?
+### Creational Patterns (5 patterns)
+Focus on object creation mechanisms, trying to create objects in a manner suitable to the situation.
 
-- When your project starts growing and needs to scale  
-- When you see **repeated code or structure**  
-- When different modules need to **communicate clearly and loosely coupled**  
-- During **interview prep** or **learning clean architecture**
+| Pattern | Description |
+|---------|-------------|
+| **Singleton** | Ensures a class has only one instance and provides global access |
+| **Factory Method** | Creates objects without specifying exact classes |
+| **Abstract Factory** | Creates families of related objects |
+| **Builder** | Constructs complex objects step by step |
+| **Prototype** | Creates objects by cloning existing instances |
 
----
+### Structural Patterns (7 patterns)
+Deal with object composition and typically identify simple ways to realize relationships between entities.
 
-## 💡 What's Inside This Repo?
+| Pattern | Description |
+|---------|-------------|
+| **Adapter** | Allows incompatible interfaces to work together |
+| **Bridge** | Separates abstraction from implementation |
+| **Composite** | Composes objects into tree structures |
+| **Decorator** | Adds behavior to objects dynamically |
+| **Facade** | Provides simplified interface to complex subsystem |
+| **Flyweight** | Minimizes memory usage by sharing data |
+| **Proxy** | Provides placeholder/surrogate for another object |
 
-This repository contains all 22 GoF patterns divided into:
+### Behavioral Patterns (10 patterns)
+Focus on communication between objects and the assignment of responsibilities.
 
-### 📦 Creational Patterns
-| Pattern | Link |
-|--------|------|
-| Singleton | [View](DesignPatterns/Creational/Singleton) |
-| Factory Method | [View](DesignPatterns/Creational/FactoryMethod) |
-| Abstract Factory | [View](DesignPatterns/Creational/AbstractFactory) |
-| Builder | [View](DesignPatterns/Creational/Builder) |
-| Prototype | [View](DesignPatterns/Creational/Prototype) |
+| Pattern | Description |
+|---------|-------------|
+| **Chain of Responsibility** | Passes requests along chain of handlers |
+| **Command** | Encapsulates requests as objects |
+| **Iterator** | Provides sequential access to collection elements |
+| **Mediator** | Defines how objects interact with each other |
+| **Memento** | Captures and restores object state |
+| **Observer** | Notifies multiple objects about state changes |
+| **State** | Changes object behavior based on internal state |
+| **Strategy** | Defines family of algorithms and makes them interchangeable |
+| **Template Method** | Defines algorithm skeleton, subclasses fill in details |
+| **Visitor** | Defines operations on object structure elements |
 
----
+## Languages Supported
 
-### 🏗️ Structural Patterns
-| Pattern | Link |
-|--------|------|
-| Adapter | [View](DesignPatterns/Structural/Adapter) |
-| Bridge | [View](DesignPatterns/Structural/Bridge) |
-| Composite | [View](DesignPatterns/Structural/Composite) |
-| Decorator | [View](DesignPatterns/Structural/Decorator) |
-| Facade | [View](DesignPatterns/Structural/Facade) |
-| Flyweight | [View](DesignPatterns/Structural/Flyweight) |
-| Proxy | [View](DesignPatterns/Structural/Proxy) |
+Each pattern is implemented in **9 programming languages**:
 
----
+- **C#** - Modern object-oriented language with strong typing
+- **C++** - Systems programming with object-oriented features
+- **Go** - Simple, efficient language with interfaces
+- **Java** - Platform-independent object-oriented language
+- **JavaScript** - Dynamic language for web and server development
+- **Kotlin** - Modern JVM language with concise syntax
+- **Python** - Readable, versatile language with strong OOP support
+- **Rust** - Systems language with memory safety
+- **TypeScript** - Typed superset of JavaScript
 
-### 🎭 Behavioral Patterns
-| Pattern | Link |
-|--------|------|
-| Chain of Responsibility | [View](DesignPatterns/Behavioral/ChainOfResponsibility) |
-| Command | [View](DesignPatterns/Behavioral/Command) |
-| Interpreter | [View](DesignPatterns/Behavioral/Interpreter) |
-| Iterator | [View](DesignPatterns/Behavioral/Iterator) |
-| Mediator | [View](DesignPatterns/Behavioral/Mediator) |
-| Memento | [View](DesignPatterns/Behavioral/Memento) |
-| Observer | [View](DesignPatterns/Behavioral/Observer) |
-| State | [View](DesignPatterns/Behavioral/State) |
-| Strategy | [View](DesignPatterns/Behavioral/Strategy) |
-| Template Method | [View](DesignPatterns/Behavioral/TemplateMethod) |
-| Visitor | [View](DesignPatterns/Behavioral/Visitor) |
+## Repository Structure
 
----
+Each pattern folder contains:
+- **README.md** - Pattern explanation, when to use, key points
+- **Language folders** - One for each of the 9 supported languages
+- **Example files** - Practical, runnable demonstrations
+- **Template files** - Minimal scaffolding for quick implementation
 
-## 🌍 Languages Supported
-
-Each pattern is (or will be) implemented in:
-
-- C++  
-- Java  
-- Go  
-- Kotlin  
-- Rust  
-- JavaScript  
-- TypeScript  
-- C#
-
----
-
-## 🧩 Features
-
-- 📌 **Real code examples** with comments  
-- 📊 **UML diagrams** for each pattern  
-- 🎯 **Visual explanations** with memes & analogies  
-- 🧠 **Pattern use-cases** and when *not* to use them  
-- 🛠️ Easily extendable to other languages
-
----
-
-## 🧠 Learn Visually
-
-> "Tell me and I forget, teach me and I may remember, involve me and I learn."  
-> — Benjamin Franklin
-
-This repo uses:
-- Diagrams  
-- Memes (yes, even anime ones!)  
-- Layered examples (basic to advanced)
-
----
-
-## 📂 Folder Structure
 ```
-DesignPatterns-by-RN/
-├── Creational/
-├── Structural/
-├── Behavioral/
-├── UML_Diagrams/
-├── Memes/
-├── README.md
+DesignPatterns/
+├── 1. Creational Design Patterns/
+│   ├── Singleton/
+│   │   ├── README.md
+│   │   ├── C#/
+│   │   │   ├── SingletonExample.cs
+│   │   │   └── SingletonTemplate.cs
+│   │   ├── Python/
+│   │   │   ├── SingletonExample.py
+│   │   │   └── SingletonTemplate.py
+│   │   └── ... (7 more languages)
+│   └── ... (4 more creational patterns)
+├── 2. Structural Design Patterns/
+│   └── ... (7 structural patterns)
+├── 3. Behavioral Design Patterns/
+│   └── ... (10 behavioral patterns)
+└── README.md
 ```
 
----
+## Key Features
 
-## 🔥 Contributions Welcome!
+- **Comprehensive Coverage** - All 22 GoF patterns implemented
+- **Multi-Language Support** - 9 programming languages per pattern
+- **Practical Examples** - Real-world scenarios, not toy problems
+- **Clean Templates** - Minimal scaffolding for quick adaptation
+- **Consistent Structure** - Same organization across all patterns
+- **Runnable Code** - No external dependencies, focused demonstrations
+- **Educational Focus** - Clear explanations and best practices
 
-If you:
-- Want to add another language  
-- Improve diagrams or examples  
-- Translate content  
-Feel free to fork and raise a pull request!
+## Code Quality Standards
 
----
+- **Language Idioms** - Each implementation follows language-specific best practices
+- **No External Dependencies** - Examples run with standard libraries only
+- **Consistent Naming** - Similar structure and naming across languages
+- **Documentation** - Clear comments explaining pattern implementation
+- **Modularity** - TypeScript files marked as modules to avoid collisions
 
-## 🧾 License
+## Getting Started
 
-This project is licensed under the **MIT License**.
+1. **Browse by Pattern** - Navigate to any pattern folder to see its README
+2. **Choose Your Language** - Each pattern has 9 language implementations
+3. **Run Examples** - All examples are self-contained and runnable
+4. **Use Templates** - Adapt minimal templates for your specific needs
 
----
+## Learning Path Recommendations
 
-## 🚀 Made by [RN]
+**Beginner**: Start with Singleton, Factory Method, Observer, Strategy
+**Intermediate**: Explore Decorator, Command, State, Template Method
+**Advanced**: Master Abstract Factory, Composite, Visitor, Chain of Responsibility
 
-If you found this repo helpful, give it a ⭐ and share it with your friends!  
-Also you can connect with me.
+## Contributions
 
----
+Contributions are welcome! Areas for improvement:
+- Additional language implementations
+- Enhanced examples and use cases
+- Documentation improvements
+- Bug fixes and optimizations
+
+## License
+
+This project is licensed under the **MIT License** - see the LICENSE file for details.
+
+## About
+
+Created as a comprehensive learning resource for software engineers, students, and anyone interested in understanding design patterns through practical implementation.
+
+**Made by RN** - If you find this repository helpful, please consider giving it a star!
